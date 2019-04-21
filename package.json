@@ -1,0 +1,32 @@
+{
+  "name": "eslint-plugin-compfest",
+  "version": "0.1.1",
+  "description": "COMPFEST branding es-lint rules",
+  "keywords": [
+    "eslint",
+    "eslintplugin",
+    "eslint-plugin"
+  ],
+  "author": "Raihan Ramadistra",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "mocha tests --recursive"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/COMPFEST/eslint-plugin-compfest"
+  },
+  "homepage": "https://github.com/COMPFEST/eslint-plugin-compfest",
+  "bugs": "https://github.com/COMPFEST/eslint-plugin-compfest/issues",
+  "dependencies": {
+    "requireindex": "~1.1.0"
+  },
+  "devDependencies": {
+    "eslint": "~3.9.1",
+    "mocha": "^3.1.2"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "license": "MIT"
+}
