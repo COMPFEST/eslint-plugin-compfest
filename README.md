@@ -43,7 +43,8 @@ Then configure the rules you want to use under the rules section.
 
 ## Supported Rules
 
-* Fill in provided rules here
+- [compfest/compfest-uppercase](https://github.com/COMPFEST/eslint-plugin-compfest/blob/HEAD/docs/rules/compfest-uppercase.md): COMPFEST. Not CompFest, not Compfest and definitely not comfest.
+
 
 
 

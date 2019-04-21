@@ -1,11 +1,11 @@
 # COMPFEST (compfest-uppercase)
 
-Please describe the origin of the rule here.
+All strings of /com(p)?fest/gi should be COMPFEST
 
 
 ## Rule Details
 
-This rule aims to...
+This rule aims to identify all spellings of COMPFEST that is not COMPFEST.
 
 Examples of **incorrect** code for this rule:
 
@@ -23,14 +23,6 @@ const message = 'Welcome to COMPFEST!'
 
 ```
 
-### Options
-
-If there are any options, describe them here. Otherwise, delete this section.
-
 ## When Not To Use It
 
-Give a short description of when it would be appropriate to turn off this rule.
-
-## Further Reading
-
-If there are other links that describe the issue this rule addresses, please include them here in a bulleted list.
+Do not use this rule if you don't like COMPFEST.

@@ -51,5 +51,12 @@ ruleTester.run("compfest-uppercase", rule, {
             message: "Replace Compfest with COMPFEST.",
         }]
       },
+      {
+        code: "message = { title: 'Comfest Grand Launching' };",
+        output: "message = { title: 'COMPFEST Grand Launching' };",
+        errors: [{
+            message: "Replace Comfest with COMPFEST.",
+        }]
+      },
     ]
 });
